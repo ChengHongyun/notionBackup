@@ -1,0 +1,20 @@
+﻿Name,Years,Venue,Input,Output,Github Repo,Defect
+Automatically Generating Commit Messages from Diffs using Neural Machine Translation,2017,ASE,"a corpus of diffs
+and human-written commit messages from the top 1k Github
+projects","Our evaluation
+uncovered a pattern in which the messages we generate tend to
+be either very high or very low quality. Therefore, we created a
+quality-assurance filter to detect cases in which we are unable to
+produce good messages, and return a warning instead.
+
+",https://sjiang1.github.io/commitgen,"Generally speaking, future improvements are likely to lie in targeted training for certain types of commits, combined with detection of change types. It is probable that very high quality predictions are possible for some types of software changes, but not others. This work provides a foundation for those and other future developments."
+Boosting Neural Commit Message Generation with Code Semantic Analysis,2019,ASE,,,https://github.com/ShuyaoJiang/CommitDataset,
+Generating Commit Messages from Diffs using Pointer-Generator Network,2019,MSR,"pairs <code changes, commit message> from top 1000-2000 Java projects in GitHub",,"Dataset:https://zenodo.org/record/2529947#.YyQYcy2KFZO
+Program:https://zenodo.org/record/2542706#.YyQZHy2KFZO",
+Jointly Learning to Repair Code and Generate Commit Message,2021,EMNLP,"a multilingual triple dataset including buggy code, fixed code, and commit messages",,Dataset:https: notion://github.com/jqbemnlp/BFCsData,
+Mining Version Control System for Automatically Generating Commit Comment,2017,ESEM,,,,
+Neural-Machine-Translation-Based Commit Message Generation,2018,ASE,,,,
+On the Relevance of Cross-project Learning with Nearest Neighbours for Commit Message Generation,2020,ICSE,,,,
+What Makes a Good Commit Message,2022,ICSE,,,,
+SmartCommit:A Graph-Based Interactive Assistant for Activity-Oriented Commits,2021,FSE,,tangled changeset decomposition,https://github.com/Symbolk/SmartCommit,
+,,,,,,
