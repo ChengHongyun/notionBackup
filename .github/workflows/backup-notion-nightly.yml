@@ -4,11 +4,9 @@ workflows:
       - schedule:
           cron: "0 * * * *"  # every hour
           filters:
-            on: 
-              push: 
-                branches:
-                  only:
-                    - SuperLucky
+            branches:
+              only:
+                - SuperLucky
     jobs:
       - export-workspace
       - publish-github-release:
